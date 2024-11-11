@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(30, 58, 138, 0.9);
+  min-height: 5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.header h3 {
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: space-around;
+  }
+}
+
+.navLink {
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: rgb(248, 113, 113);
+}
+
+.logo {
+  width: 11rem;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 15rem;
+  }
+}
+
+.postButton {
+  background-color: #b73439;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  border: none;
+}
+
+.postButton:hover {
+  background-color: #8a282b;
+}
+
+@media (min-width: 768px) {
+  .postButton {
+    width: auto;
+  }
+} 

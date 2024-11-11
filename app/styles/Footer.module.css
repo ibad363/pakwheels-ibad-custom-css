@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b73439;
+  min-height: 3.5rem;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.footer h1 {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .footer h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.link {
+  padding: 0.25rem 0;
+}
+
+.link:hover {
+  text-decoration: underline;
+} 

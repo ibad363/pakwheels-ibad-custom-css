@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 81vh;
+  padding: 5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 11rem 1rem;
+  }
+}
+
+.heading {
+  color: #1e3a8a;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.875rem;
+}
+
+@media (min-width: 640px) {
+  .heading {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 3.75rem;
+  }
+}
+
+.message {
+  margin-top: 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .message {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .message {
+    margin-top: 2.5rem;
+    font-size: 1.25rem;
+  }
+} 
